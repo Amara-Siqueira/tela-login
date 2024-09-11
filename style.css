@@ -1,0 +1,50 @@
+@charset "UTF-8";
+*{
+    /*Paleta de cores
+    #009DFF azul
+    #00FFC4 verdinho
+    #00E5FF azulzinho
+    */
+}
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+body,html{
+    background-color: #00FFC4;
+    height: 100vh;
+    width: 100vh;
+}
+main{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+
+
+}
+section#login{
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    position:absolute;
+    border-radius: 20px;
+    height: 500px;
+    width: 250px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.753);
+}
+section#login >div#imagem{
+    background:url(pictures/cidade-meio-urbano.jpeg) no-repeat;
+    background-size: cover;
+    height: 200px;
+    background-position: left bottom;
+
+}
+section#login > div#form{
+    display: block;
+    padding: 10px;
+}
