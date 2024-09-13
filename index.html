@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" /> 
+    <link rel="stylesheet" href="style.css">
      <link rel="stylesheet" href="styleMq.css">
     <title>login</title>
 </head>
@@ -22,8 +23,21 @@
                     Seja bem vindo novamente Faça login
                  </p>
                  <form action="login.php" method="post">
+                        <div class="campo">
+                            <span class="material-symbols-outlined">person</span>
+                            <input type="email" id="ilogin" placeholder="email" required>
+                            <label for="ilogin">login</label>
+                        </div>
+                       
+                        <div class="campo">
+                            <span class="material-symbols-outlined">vpn_key</span>
+                            <input type="password" name="senha" id="isenha" placeholder="senha" required>
+                            <label for="isenha">senha</label>
+                        </div>
+                        <input type="submit" value="entrar">
+                        <a href="esqueçi.html">Esqueci a senha <span class="material-symbols-outlined">mail</span>
 
-
+                        </a>
                  </form>
             </div>
         </section>
